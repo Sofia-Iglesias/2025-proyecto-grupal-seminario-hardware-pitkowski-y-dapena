@@ -5,16 +5,16 @@
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- Matias Pitkowski 
+- Thiago Dapena
 
 ## **`Objetivo`**
 
-`Breve descripción del propósito del proyecto. Completar una vez definido el proyecto.`
+Hacer un sistema que use sensores de humedad para saber si hay que regar la planta y leds para que la persona sepa el estado de la planta (por ejemplo rojo es que necesita agua, amarillo que se esta regando y verde que esta bien de humedad).
 
 ## **`Descripción del Proyecto`**
 
-`Explicar en qué consiste y qué se busca lograr. Completar una vez definido el proyecto.`
+Un sistema que use sensores de humedad para saber si hay que regar la planta, mini bombas para el agua y leds para que la persona sepa el estado de la planta (por ejemplo rojo es que necesita agua, amarillo que se esta regando y verde que esta bien de humedad). Como fuente de energia usaria baterias o un cable para enchufarlo a un toma corrientes de la pared
 
 ## **`Componentes`**
 

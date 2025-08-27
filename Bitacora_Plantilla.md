@@ -5,8 +5,8 @@
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- Matias Pitkowski
+- Thiago Dapena
 
 
 ---
