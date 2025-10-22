@@ -40,8 +40,10 @@ Un sistema que use sensores de humedad para saber si hay que regar la planta, mi
 
 ## **`Etapas del proyecto`**
 ### Etapa 1:
-- `Acción 1`
-- `Acción 2`
+- ` Investigar que componentes usar`
+- `Buscar donde comprar los componentes`
+- `Hacer las guias de los componentes`
+  
 
 ### Etapa 2:
 - `Acción 1`
