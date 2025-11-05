@@ -1,0 +1,43 @@
+Guía de Preguntas
+Nombre del componente: Protoboard y cables Dupont
+
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+Es un actuador. Su función principal es bombear agua desde la fuente hasta las plantas
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Usa una señal digital, ya que se enciende o apaga mediante un transistor o módulo relay. 
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+Funciona con 3 a 5 voltios DC y consume alrededor de 100 a 200 mA de corriente.
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+VCC (+): se conecta a la fuente de alimentación positiva.
+GND (–): se conecta a tierra o negativo. 
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Se usa un pin digital para conectar la señal porque permite activar o desactivar la bomba fácilmente con un código.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+¿Cuál es el principio de funcionamiento del componente?
+Funciona haciendo pasar corriente por un motor DC interno, que hace girar una hélice para mover el agua.
+
+¿Utiliza alguna librería particular para programarlo?
+No necesita ninguna librería.
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+El Arduino envía una salida digital: HIGH enciende la bomba y LOW la apaga.
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+No se debe conectar la bomba directo al pin del Arduino porque puede dañarlo. Se debe usar un transistor o relay con una fuente externa de 5V y un diodo de protección para evitar picos de voltaje. Además, nunca debe funcionar sin agua para evitar que el motor se queme.
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Se puede probar conectando la bomba a una fuente de 5V y observar si expulsa agua. También, en una prueba con Arduino, verificar si responde al encendido con digitalWrite(HIGH).
+
+Simular en Tinkercad e incluir el link de la simulación. 
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+Puede fallar si no le entra agua porque sirve tambien como lubricante de las partes moviles y refrigeracion a la vez  
