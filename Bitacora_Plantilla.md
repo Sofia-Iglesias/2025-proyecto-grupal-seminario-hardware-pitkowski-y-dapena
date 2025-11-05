@@ -1,4 +1,4 @@
-# **`Bitácora de (Nombre del Proyecto)`**
+# **`Bitácora de (Autoriego 5.0)`**
 
 `Tecnología de los Sistemas de Información - Seminario Avanzado`  
 `Ciclo Lectivo 2025`
