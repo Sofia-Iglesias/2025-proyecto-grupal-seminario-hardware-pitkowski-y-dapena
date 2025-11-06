@@ -18,17 +18,17 @@
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `Ver que componentes usariamos en el proyecto`  
+- `Decidir que versiones,modelos o marcas usar `
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
+- `Decidir entre que usar porque son muchas`  
 - `Dificultad 2`
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
+- `Hacer los TP de cada componente`  
 - `Próximo paso 2`
 
 
@@ -41,13 +41,13 @@
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `Empezar con las guias de preguntas`  
+- `Terminar las guias y los diagramas`
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
-- `Dificultad 2`
+- `Como eran los diagrmas de bloques `  
+- `Los diagramas de cada componente`
 
 **`Próximos Pasos:`**
 
