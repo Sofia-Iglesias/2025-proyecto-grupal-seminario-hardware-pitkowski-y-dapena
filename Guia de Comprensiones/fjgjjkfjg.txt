@@ -1,1 +1,39 @@
-f.manknvksn{vknnaf
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+No es ninguno de los dos, es un componente electrónico pasivo. Su función principal es permitir el paso de corriente en una sola dirección y bloquearla en la contraria para proteger el circuito de posibles inversiones de polaridad o picos de voltaje.
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+No se comunica directamente con Arduino.
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+puede soportar hasta 40V de tensión inversa y conducir hasta 1A de corriente. Su caída de tensión directa es baja, aproximadamente 0,2 a 0,45V, lo que lo hace eficiente para circuitos de baja tensión.
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+Ánodo (A): por donde entra la corriente.
+
+Cátodo (K): por donde sale la corriente cuando el diodo está en conducción.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+No se conecta a un pin específico de Arduino, sino en serie o paralelo con otros componentes del circuito.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+FALTA
+
+¿Cuál es el principio de funcionamiento del componente?
+proteger y rectificar señales en fuentes conmutadas o motores.
+
+¿Utiliza alguna librería particular para programarlo?
+no
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+No entrega ni recibe datos.
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Se debe respetar su corriente máxima (1A) y voltaje inverso máximo (40V). Superar estos valores puede hacer que el diodo se queme o se vuelva conductor en ambas direcciones.
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+lo probaria con un multímetro en modo diodo, si marca continuidad en un sentido (de ánodo a cátodo) y no en el otro funciona correctamente. Si conduce en ambos sentidos o en ninguno, está dañado.
+
+Simular en Tinkercad e incluir el link de la simulación. 
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+FALTA
