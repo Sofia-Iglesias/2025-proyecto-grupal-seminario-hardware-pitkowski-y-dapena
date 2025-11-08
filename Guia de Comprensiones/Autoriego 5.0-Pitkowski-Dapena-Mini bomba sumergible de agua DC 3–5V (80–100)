@@ -36,8 +36,10 @@ No se debe conectar la bomba directo al pin del Arduino porque puede dañarlo. S
 Se puede probar conectando la bomba a una fuente de 5V y observar si expulsa agua. También, en una prueba con Arduino, verificar si responde al encendido con digitalWrite(HIGH).
 
 Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/it60fGoqHxm-bodacious-leelo-habbi/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits
 
 En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+Que el motor empieze a moverse y aumente el rpm
 
 ¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
 Puede fallar si no le entra agua porque sirve tambien como lubricante de las partes moviles y refrigeracion a la vez  
