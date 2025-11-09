@@ -24,12 +24,17 @@ no
 
 ¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
 Una salida digital HIGH enciende el LED y una salida LOW lo apaga.
+
 ¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
 Nunca debe conectarse directamente a 5V sin resistencia, ya que se puede quemar. También es importante respetar la polaridad y no superar la corriente máxima recomendada.
+
 ¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
 Se puede probar conectando el LED con una resistencia a una fuente de 5V. Si emite luz, funciona correctamente.
+
 Simular en Tinkercad e incluir el link de la simulación. 
 
 En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
-¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
 Al establecer la salida en HIGH, el LED debe encenderse. Si no se enciende, puede haber un problema en la conexión o en el código.
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+Puede fallar si se quema por exceso de corriente o está invertido. Si no enciende al enviar HIGH o queda siempre apagado, hay problema en el circuito o conexión.
