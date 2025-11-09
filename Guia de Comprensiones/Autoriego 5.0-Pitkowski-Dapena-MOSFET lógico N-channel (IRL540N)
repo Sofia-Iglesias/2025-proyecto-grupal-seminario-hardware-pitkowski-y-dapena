@@ -1,0 +1,45 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+Es un actuador. Su función principal es permitir o interrumpir el paso de corriente hacia una carga (por ejemplo, una bomba o un motor) controlado por una señal digital del Arduino.
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Utiliza una señal digital aplicada al pin Gate.
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+Puede manejar tensiones y corrientes elevadas, mucho mayores a las que soporta directamente un pin del Arduino (puede controlar cargas de hasta varios amperios).
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+
+Gate (G): entrada de control, recibe la señal del Arduino.
+
+Drain (D): salida hacia la carga (por ejemplo, bomba o motor).
+
+Source (S): conectado a tierra (GND).
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Se puede usar un pin digital, por ejemplo el 9 (PWM), ya que permite controlar el encendido o la potencia de la carga mediante modulación por ancho de pulso.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+¿Cuál es el principio de funcionamiento del componente?
+Cuando se aplica voltaje al Gate, el MOSFET conduce y permite el paso de corriente entre Drain y Source; cuando no hay voltaje, corta el paso de corriente.
+
+¿Utiliza alguna librería particular para programarlo?
+No, se controla directamente desde el código mediante instrucciones digitales o PWM.
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+Cuando el pin de control está en HIGH, la carga se activa; cuando está en LOW, se apaga.
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Es importante no superar la corriente máxima del MOSFET, conectar correctamente las tierras y usar un diodo de protección cuando se manejen cargas inductivas.
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Se puede probar con un LED o un motor pequeño para ver si responde correctamente al control digital. También se debe verificar que no se caliente en exceso.
+
+Simular en Tinkercad e incluir el link de la simulación.
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+Cuando el pin digital esté en HIGH, la carga (por ejemplo, la bomba o motor) debe encenderse.
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+Puede fallar si se sobrecalienta o si el Gate no recibe la señal adecuada. Se detecta si la carga no se activa al enviar una señal HIGH o si el MOSFET conduce aun cuando debería estar apagado.
