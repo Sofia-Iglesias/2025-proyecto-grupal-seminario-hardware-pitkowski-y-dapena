@@ -16,7 +16,8 @@ Cátodo (K): por donde sale la corriente cuando el diodo está en conducción.
 No se conecta a un pin específico de Arduino, sino en serie o paralelo con otros componentes del circuito.
 
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-FALTA
+https://app.diagrams.net/?src=about#G14lsly-xZtSWIzaHKxSTT-nuWOdLzrxfb#%7B%22pageId%22%3A%22yMhAH4Lpj7nEPKBO2Sn5%22%7D
+
 
 ¿Cuál es el principio de funcionamiento del componente?
 proteger y rectificar señales en fuentes conmutadas o motores.
@@ -36,4 +37,6 @@ lo probaria con un multímetro en modo diodo, si marca continuidad en un sentido
 Simular en Tinkercad e incluir el link de la simulación. 
 En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
 ¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
-FALTA
+Si funciona deja pasar corriente en un solo sentido. si falla el LED no prende o algo se daña al invertir la polaridad.
+https://www.tinkercad.com/things/it60fGoqHxm-bodacious-leelo-habbi/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits
+
