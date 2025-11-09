@@ -14,7 +14,9 @@ Funciona con una tensión directa aproximada entre 2V y 3V, dependiendo del colo
 Cátodo (–): pata negativa que se conecta a GND o tierra.
 ¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
 Se pueden usar pines digitales (por ejemplo, 2, 3 o 4), ya que permiten controlar fácilmente el encendido y apagado mediante salidas digitales.
+
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+https://app.diagrams.net/?src=about#G1ssljMZyttpEPSyTCbt-tU5LvDMyKzFE6#%7B%22pageId%22%3A%22yKGSlhhJG2mE97LYf3Hz%22%7D
 
 ¿Cuál es el principio de funcionamiento del componente?
 Cuando los electrones atraviesan la unión del diodo LED, se recombinan con huecos y emiten energía en forma de luz visible.
@@ -32,6 +34,7 @@ Nunca debe conectarse directamente a 5V sin resistencia, ya que se puede quemar.
 Se puede probar conectando el LED con una resistencia a una fuente de 5V. Si emite luz, funciona correctamente.
 
 Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/3ykrQETuoX2-frantic-wluff-tumelo/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits
 
 En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
 Al establecer la salida en HIGH, el LED debe encenderse. Si no se enciende, puede haber un problema en la conexión o en el código.
