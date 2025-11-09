@@ -51,5 +51,25 @@
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
+- `Hacer la simulacion de los componentes juntos`  
 - `Próximo paso 2`
+
+## **`Semana 3`**
+
+**`Fecha:`**
+
+**`Actividades Realizadas:`**
+
+- `Ver la simulacion de componentes`  
+- ``  
+
+**`Dificultades:`**
+
+- ``  
+- ``  
+
+**`Próximos Pasos:`**
+
+- `Próximo paso 1`
+- `Próximo paso 2`
+
