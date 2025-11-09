@@ -19,7 +19,7 @@ Source (S): conectado a tierra (GND).
 Se puede usar un pin digital, por ejemplo el 9 (PWM), ya que permite controlar el encendido o la potencia de la carga mediante modulación por ancho de pulso.
 
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-
+https://app.diagrams.net/?src=about#G1DsErd_3A9PLlMhFmiWEFIVTaXJHpLmeH#%7B%22pageId%22%3A%22BGVqdiFM5WnjAWuUJmJf%22%7D
 
 ¿Cuál es el principio de funcionamiento del componente?
 Cuando se aplica voltaje al Gate, el MOSFET conduce y permite el paso de corriente entre Drain y Source; cuando no hay voltaje, corta el paso de corriente.
@@ -37,6 +37,7 @@ Es importante no superar la corriente máxima del MOSFET, conectar correctamente
 Se puede probar con un LED o un motor pequeño para ver si responde correctamente al control digital. También se debe verificar que no se caliente en exceso.
 
 Simular en Tinkercad e incluir el link de la simulación.
+https://www.tinkercad.com/things/bBf41Id5KxR/editel?returnTo=%2Fdashboard
 
 En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
 Cuando el pin digital esté en HIGH, la carga (por ejemplo, la bomba o motor) debe encenderse.
