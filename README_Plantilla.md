@@ -27,8 +27,7 @@ Un sistema que use sensores de humedad para saber si hay que regar la planta, mi
 - `Protoboard y cables dupont`
 - `Tubo manguera + filtro y válvula. todo 5–7 mm de diámetro`
 - `Cargador USB 5 V o fuente con conversor a 5 V`
-- `Caja plástica y conexión hermética`
-`Completar una vez definido el proyecto.`
+
 
 ## **`Requisitos`**
 
