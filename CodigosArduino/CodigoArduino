@@ -1,0 +1,39 @@
+#define sensorPin A1
+#define ledVerde 3
+#define ledAmarillo 4
+#define ledRojo 5
+#define bombaPin 9
+
+void setup() {
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledAmarillo, OUTPUT);
+  pinMode(ledRojo, OUTPUT);
+  pinMode(bombaPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int valor = analogRead(sensorPin); // 0 - 1023
+  Serial.println(valor);
+
+  if (valor < 400) {        // suelo húmedo
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAmarillo, LOW);
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(bombaPin, LOW);
+  } 
+  else if (valor < 700) {   // humedad media
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAmarillo, HIGH);
+    digitalWrite(ledRojo, LOW);
+    digitalWrite(bombaPin, LOW);
+  } 
+  else {                    // suelo seco
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAmarillo, LOW);
+    digitalWrite(ledRojo, HIGH);
+    digitalWrite(bombaPin, HIGH); // activa MOSFET → motor
+  }
+
+  delay(1000);
+}
