@@ -19,7 +19,7 @@ AOUT: salida analógica que envía la señal de humedad al Arduino.
 Se conecta al pin analógico A0 de Arduino porque permite leer valores analógicos variables.
 
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-https://drive.google.com/file/d/1zAHKCgaHAH-MCL4rTA04raJhoh8tcZ3C/view?usp=sharing
+https://app.diagrams.net/?src=about#G17eKywdyvQkQ8daY7hDQtlxZ3pkk6aBZm#%7B%22pageId%22%3A%22cuPU9cnZgyGpc2_A-Xu1%22%7D
 
 ¿Cuál es el principio de funcionamiento del componente?
 El sensor mide la capacitancia del suelo, la cual cambia según la cantidad de agua presente. Cuanta más humedad, mayor capacitancia y menor voltaje en la salida.
