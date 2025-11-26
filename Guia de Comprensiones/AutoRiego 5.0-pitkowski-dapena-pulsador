@@ -1,0 +1,50 @@
+Qué tipo de dispositivo es y función principal
+ es un sensor manual que detecta cuando lo apretan sirve para activar funciones
+
+
+Qué señal utiliza
+ señal digital alto o bajo
+
+
+Rango de valores
+ entrega 0v o 5v segun si se presiona
+
+
+Pines del componente
+ dos pines utilies para cerrar circuito otros dos son solo para soporte segun el modelo
+
+
+Pines Arduino utilizados y por qué
+ pin 4 con pullup interno porque facilita la lectura
+
+
+Esquema de conexión
+https://app.diagrams.net/?src=about#G1nf2IIZWV9e7llv26SXl3msgjF8FBEe2Y#%7B%22pageId%22%3A%22YYHigw6O5Zlddx-o6zM3%22%7D
+
+
+Principio de funcionamiento
+ el boton cierra el circuito cuando se apreta y lo abre cuando se suelta
+
+
+Librería
+ no nesesita
+
+
+Interpretación del dato
+ si lee LOW esta apretado si lee HIGH esta suelto
+
+
+Limitaciones eléctricas
+ tiene rebotes mecanicos por eso se usa debounce en codigo
+
+
+Cómo verificar funcionamiento
+ mirar el monitor serial y apretar para ver cambios
+
+
+Simulación y valor esperado
+ en tinkercad el pin pasa de HIGH a LOW cuando se presiona
+ link no generado por limita siones del sistema
+
+
+
