@@ -1,0 +1,49 @@
+Qué tipo de dispositivo es y función principal
+ es un sensor que mide distancia con ondas ultrasonicas sirve para detectar objetos o medir niveles
+
+
+Qué señal utiliza
+ usa señales digitales trig y echo
+
+
+Rango de valores
+ mide aprox de 2 cm a 400 cm
+
+
+Pines y funciones
+ VCC alimentacion
+ TRIG emite pulso
+ ECHO recibe pulso
+ GND tierra
+
+
+Pines Arduino utilizados y por qué
+ TRIG al pin 8 ECHO al pin 9 por que son pines digitales simples para pulseIn
+
+
+Esquema de conexión
+https://app.diagrams.net/?src=about#G1bS81ncOQQnzks9ff1TRqSlf5Zl91pj1n#%7B%22pageId%22%3A%22FkFQFSEJxdsVKPXvAmjz%22%7D
+
+Principio de funcionamiento
+ envia un pulso ultrasonic rebota en el objeto vuelve y se mide el tiempo para calcular la distancia
+
+
+Utiliza librería
+ no necesita se maneja con pulseIn
+
+
+Interpretación del dato
+ distancia = tiempo * 0.034 / 2
+
+
+Limitaciones eléctricas
+ mala lectura si el objeto es muy blando oscuro o con ángulos raros
+
+
+Cómo verificar funcionamiento
+ poner un objeto cerca y lejos y ver cambios en el monitor serial
+
+
+Simulación y valor esperado
+ en tinkercad deberia marcar distancias como 20 cm 50 cm segun la ubicacion del objeto
+ link no generado por limintasion del sistema
