@@ -14,7 +14,7 @@ Hacer un sistema que use sensores de humedad para saber si hay que regar la plan
 
 ## **`Descripción del Proyecto`**
 
-Un sistema que use sensores de humedad para saber si hay que regar la planta, mini bombas para el agua y leds para que la persona sepa el estado de la planta (por ejemplo rojo es que necesita agua, amarillo que se esta regando y verde que esta bien de humedad). Como fuente de energia usaria baterias o un cable para enchufarlo a un toma corrientes de la pared
+Un sistema que use sensores de humedad para saber si hay que regar la planta, mini bombas para el agua y un sensor que detecta cuanta agua tiene el tanque  y leds para que la persona sepa el estado de la planta (por ejemplo rojo es que necesita agua, amarillo que se esta regando y verde que esta bien de humedad). Como fuente de energia usaria baterias o un cable para enchufarlo a un toma corrientes de la pared. Tambien un sensor de temperatura y humedad para el aire por si esta muy seco el ambiente.Un buzzer que suena cuando el tanque esta vacio y un pulsador por si la persona quiere activar el motor manualmente
 
 ## **`Componentes`**
 
