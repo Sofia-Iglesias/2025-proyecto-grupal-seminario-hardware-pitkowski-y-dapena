@@ -1,0 +1,41 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+No es ni sensor ni actuador, es un componente electrónico pasivo. Su función principal es limitar la corriente que circula por un circuito y proteger otros componentes de posibles sobrecorrientes.
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+No utiliza señales para comunicarse con Arduino; simplemente modifica el flujo de corriente dentro del circuito.
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+En este caso se utilizan resistencias de 220 Ω, 100 Ω y 100 kΩ, cada una con diferentes niveles de resistencia según la necesidad del circuito.
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+Tiene dos terminales: ambos permiten el paso de corriente, no tienen polaridad ni función distinta entre sí.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Se conecta en serie con el componente que se desea proteger, por ejemplo, con un LED en un pin digital, para limitar la corriente que pasa a través de él.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+https://drive.google.com/file/d/14lsly-xZtSWIzaHKxSTT-nuWOdLzrxfb/view?usp=sharing
+
+¿Cuál es el principio de funcionamiento del componente?
+Funciona según la Ley de Ohm (V = I × R). Se opone al paso de los electrones, generando una caída de tensión proporcional a la corriente que la atraviesa.
+
+¿Utiliza alguna librería particular para programarlo?
+No, las resistencias no requieren programación ni librerías.
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+No genera ni envía datos; su función es puramente física, no lógica.
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Se debe elegir el valor correcto de resistencia para evitar daños en otros componentes. Si el valor es demasiado bajo, puede pasar demasiada corriente; si es muy alto, el componente conectado podría no funcionar correctamente.
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Se puede medir con un multímetro para verificar que su resistencia coincide con el valor esperado.
+
+Simular en Tinkercad e incluir el link de la simulación.
+
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+El circuito debería funcionar normalmente, protegiendo al componente conectado (por ejemplo, el LED encenderá sin quemarse).
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+Puede fallar si se quema por exceso de corriente o si tiene mal contacto. Si el componente que protege no funciona o se quema, probablemente la resistencia esté mal dimensionada o dañada.

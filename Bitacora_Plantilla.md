@@ -1,12 +1,12 @@
-# **`Bitácora de (Nombre del Proyecto)`**
+# **`Bitácora de (Autoriego 5.0)`**
 
 `Tecnología de los Sistemas de Información - Seminario Avanzado`  
 `Ciclo Lectivo 2025`
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- Matias Pitkowski
+- Thiago Dapena
 
 
 ---
@@ -18,17 +18,17 @@
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `Ver que componentes usariamos en el proyecto`  
+- `Decidir que versiones,modelos o marcas usar `
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
+- `Decidir entre que usar porque son muchas`  
 - `Dificultad 2`
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
+- `Hacer los TP de cada componente`  
 - `Próximo paso 2`
 
 
@@ -41,15 +41,49 @@
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `Empezar con las guias de preguntas`  
+- `Terminar las guias y los diagramas`
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
-- `Dificultad 2`
+- `Como eran los diagrmas de bloques `  
+- `Los diagramas de cada componente`
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
+- `Hacer la simulacion de los componentes juntos`  
 - `Próximo paso 2`
+
+## **`Semana 3`**
+
+**`Fecha:`**
+
+**`Actividades Realizadas:`**
+
+- `Ver la simulacion de componentes`  
+- ``  
+
+**`Dificultades:`**
+
+- `Juntar todos los componentes en un Tinkercard`  
+- `Que el Tinkercard quede prolijo y que se entienda`  
+
+**`Próximos Pasos:`**
+
+- `Entregar TP`
+
+  ## **`Semana 3`**
+
+**`Fecha:`**
+
+**`Actividades Realizadas:`**
+
+- `Entregar el TP`  
+- `Chekear con Sofi que el Github este bien hecho`  
+
+**`Dificultades:`**
+
+- ``  
+- ``  
+
+

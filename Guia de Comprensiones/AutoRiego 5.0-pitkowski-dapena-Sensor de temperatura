@@ -1,0 +1,50 @@
+Qué tipo de dispositivo es y función principal
+ es un sensor que mide temperatura y humedad del hambiente sirve para obtener datos climaticos para el riego automatico
+
+
+Qué tipo de señal utiliza para comunicarse con Arduino
+ usa una señal digital que envia los datos en forma de pulsos
+
+
+Rango de valores que puede entregar o recibir
+ temperatura de 0 a 50 grados y humedad de 20 a 90 por siento aprox
+
+
+Pines del componente y función
+ 1 VCC alimentacion
+ 2 DATA señal
+ 3 NC sin uso
+ 4 GND tierra
+
+
+Pines de Arduino utilizados y por qué
+ lo conecto al pin digital 2 por que es facil de leer y es comodo para librerias
+
+
+Esquema de conexión
+https://app.diagrams.net/?src=about#G1KUGhzZa26uW2ckr1EFZoj-UgyQblz0L5#%7B%22pageId%22%3A%22FkFQFSEJxdsVKPXvAmjz%22%7D
+
+
+Principio de funcionamiento
+ el dht11 usa un sensor que cambia su resistencia segun la humedad y un termistor que varia con la temperatura el chip interno lo convierte en pulsos digitales
+
+
+Utiliza librería
+ si usa la libreria DHT de adafruit
+
+
+Interpretación del dato
+ con dhtreadTemperature y dhtreadHumidity el programa recibe valores numericos
+
+
+Limitaciones o precauciones eléctricas
+ no soporta cables muy largos y solo trabaja a 5v no a 3v3
+
+
+Cómo verificar funcionamiento
+ leer los valores por el serial y ver si cambian cuando lo tocas con la mano
+
+
+Simulación y valor esperado
+ en tinkercad espero valores entre 25 y 30 grados 
+https://www.tinkercad.com/things/k4NWUy3hQAP/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=MnY8W1zH9dZVZDsN5rB8wB_9caI4V7bH-CFY2AJbtEA

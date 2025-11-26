@@ -1,0 +1,50 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+Es un sensor. Su función principal es medir el nivel de humedad del suelo y enviar un valor analógico a Arduino para determinar si la tierra está seca o húmeda.
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Utiliza una señal analógica, que varía su voltaje según la cantidad de agua presente en el suelo.
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+En general, cuando el suelo está seco, entrega valores altos (entre 700 y 900), y cuando está húmedo, valores bajos (entre 200 y 400).
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+
+VCC: alimentación positiva (5 V).
+
+GND: tierra o negativo.
+
+AOUT: salida analógica que envía la señal de humedad al Arduino.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Se conecta al pin analógico A0 de Arduino porque permite leer valores analógicos variables.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+https://app.diagrams.net/?src=about#G17eKywdyvQkQ8daY7hDQtlxZ3pkk6aBZm#%7B%22pageId%22%3A%22cuPU9cnZgyGpc2_A-Xu1%22%7D
+
+¿Cuál es el principio de funcionamiento del componente?
+El sensor mide la capacitancia del suelo, la cual cambia según la cantidad de agua presente. Cuanta más humedad, mayor capacitancia y menor voltaje en la salida.
+
+¿Utiliza alguna librería particular para programarlo?
+No requiere ninguna librería, solo la lectura analógica básica.
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+El Arduino lee valores de 0 a 1023 en función del nivel de humedad:
+
+Valores altos = suelo seco
+
+Valores bajos = suelo húmedo
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+No se debe sumergir completamente la placa del sensor; solo la parte metálica debe entrar en contacto con la tierra húmeda.
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Se puede probar insertando la sonda en tierra seca y luego en tierra húmeda. Si los valores cambian, el sensor funciona correctamente.
+
+Simular en Tinkercad e incluir el link de la simulación.
+https://www.tinkercad.com/things/50UL41jT0gG/editel?returnTo=%2Fdashboard
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+El valor analógico debería variar según el nivel de humedad detectado (valores más bajos con tierra húmeda, más altos con tierra seca).
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+Puede fallar si se moja la parte electrónica del sensor o si hay un falso contacto en los cables. En el código, se detectaría si los valores permanecen fijos o no cambian ante variaciones de humedad.

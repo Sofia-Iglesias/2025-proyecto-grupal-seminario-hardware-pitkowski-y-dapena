@@ -5,44 +5,45 @@
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- Matias Pitkowski 
+- Thiago Dapena
 
 ## **`Objetivo`**
 
-`Breve descripción del propósito del proyecto. Completar una vez definido el proyecto.`
+Hacer un sistema que use sensores de humedad para saber si hay que regar la planta y leds para que la persona sepa el estado de la planta (por ejemplo rojo es que necesita agua, amarillo que se esta regando y verde que esta bien de humedad).
 
 ## **`Descripción del Proyecto`**
 
-`Explicar en qué consiste y qué se busca lograr. Completar una vez definido el proyecto.`
+Un sistema que use sensores de humedad para saber si hay que regar la planta, mini bombas para el agua y un sensor que detecta cuanta agua tiene el tanque  y leds para que la persona sepa el estado de la planta (por ejemplo rojo es que necesita agua, amarillo que se esta regando y verde que esta bien de humedad). Como fuente de energia usaria baterias o un cable para enchufarlo a un toma corrientes de la pared. Tambien un sensor de temperatura y humedad para el aire por si esta muy seco el ambiente.Un buzzer que suena cuando el tanque esta vacio y un pulsador por si la persona quiere activar el motor manualmente
 
 ## **`Componentes`**
 
-- `Componente 1`  
-- `Componente 2`  
-- `Componente 3`
+- `Mini Bomba Sumergible Agua Dc3-5v 80-100l/h - Anfibio - Link: https://articulo.mercadolibre.com.ar/MLA-865532052-mini-bomba-sumergible-agua-dc3-5v-80-100lh-anfibio--_JM#polycard_client=search-nordic&search_layout=stack&position=2&type=item&tracking_id=ce958541-8c91-4595-8138-70881029e36e&wid=MLA865532052&sid=search`  
+- `Sensor De Humedad En Suelo - Capacitivo Analogico Link: https://www.mercadolibre.com.ar/sensor-de-humedad-en-suelo-capacitivo-analogico/p/MLA47099256#polycard_client=search-nordic&search_layout=grid&position=2&type=product&tracking_id=c5a9ce6e-894e-4106-87bb-46cfbffae272&wid=MLA2030651224&sid=search`  
+- `MOSFET lógico N-channel Link: https://articulo.mercadolibre.com.ar/MLA-926505531-irl540n-irl540-to220-x-2-unidades-_JM#polycard_client=search-nordic&search_layout=stack&position=1&type=item&tracking_id=025e8dc8-6faa-42cb-9245-9b1669522863&wid=MLA926505531&sid=search`
+- `10 X Diodo Schottky Barrier 1n5819 40v 1a Do-204ah Lunk: https://www.mercadolibre.com.ar/10-x-diodo-schottky-barrier-1n5819-40v-1a-do-204ah/p/MLA48092585#polycard_client=search-nordic&search_layout=grid&position=1&type=product&tracking_id=4594d542-7e5a-43da-9d41-758a17141f2a&wid=MLA2052371454&sid=search`
+- `DHT11 Sensor de Temperatura y Humedad Link: https://www.mercadolibre.com.ar/dht11-sensor-digital-temperatura-humedad-arduino/up/MLAU272596863?matt_tool=38087446&pdp_filters=item_id%3AMLA744640832&utm`
+-  ` Módulo Sensor Ultrasónico HC‑SR04 Link: https://www.mercadolibre.com.ar/modulo-de-sensor-ultrasonico-hc-sr04/up/MLAU322224167?utm`
+-  `Buzzer Activo 3.3 V–5 V Link: https://candy-ho.com/producto/modulo-buzzer-pasivo-3-3v-a-5v-zumbador-arduino/?utm`
+-  `1 Pulsador`
+- `3 Leds rojo.verde y amarillo`
+-  `Resistencias (220 Ω (para los leds), 100 Ω (va en serie con el gate del MOSFET para proteger el Ardurino cuando controla el MOSFET ), 100 kΩ (Va como pull-down entre el Gate y ground , evita que la bomba se prenda sola por cargas estáticas y asegura que el MOSFET arranque siempre apagado.), resistencia de 10 kΩ para el dht11)`
+- `Protoboard y cables dupont`
+- `Tubo manguera + filtro y válvula. todo 5–7 mm de diámetro`
+- `Cargador USB 5 V o fuente con conversor a 5 V`
 
-`Completar una vez definido el proyecto.`
 
 ## **`Requisitos`**
 
-- `Software necesario`  
-- `Librerías`  
-- `Hardware adicional`
-
-`Completar una vez definido el proyecto.`
+- `Ninguno`  
 
 ## **`Etapas del proyecto`**
 ### Etapa 1:
-- `Acción 1`
-- `Acción 2`
+- ` Investigar que componentes usar`
+- `Buscar donde comprar los componentes`
+- `Hacer las guias de los componentes`
+  
 
 ### Etapa 2:
-- `Acción 1`
-- `Acción 2`
-
-## **`Extras`**
-
-- `Extra 1`  
-- `Extra 2`  
-- `Extra 3`
+- `Hacer las simulaciones de cada componente en Tinkercard`
+- `Hacer la simulacion final de todos los componentes en un solo Tinkercard`

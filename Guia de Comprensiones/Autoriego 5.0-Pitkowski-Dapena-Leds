@@ -1,0 +1,43 @@
+Nombre del componente: Leds
+
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+Es un actuador. Su función principal es emitir luz cuando circula corriente eléctrica a través de él, permitiendo indicar estados o condiciones del sistema (por ejemplo, encendido, apagado o alerta).
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Utiliza una señal digital: con nivel HIGH se enciende y con nivel LOW se apaga.
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+Funciona con una tensión directa aproximada entre 2V y 3V, dependiendo del color, y una corriente de funcionamiento de entre 10 y 20 mA.
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+Ánodo (+): pata positiva por donde entra la corriente.
+
+Cátodo (–): pata negativa que se conecta a GND o tierra.
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Se pueden usar pines digitales (por ejemplo, 2, 3 o 4), ya que permiten controlar fácilmente el encendido y apagado mediante salidas digitales.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+https://drive.google.com/file/d/1ssljMZyttpEPSyTCbt-tU5LvDMyKzFE6/view?usp=sharing
+
+¿Cuál es el principio de funcionamiento del componente?
+Cuando los electrones atraviesan la unión del diodo LED, se recombinan con huecos y emiten energía en forma de luz visible.
+
+¿Utiliza alguna librería particular para programarlo?
+no
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+Una salida digital HIGH enciende el LED y una salida LOW lo apaga.
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Nunca debe conectarse directamente a 5V sin resistencia, ya que se puede quemar. También es importante respetar la polaridad y no superar la corriente máxima recomendada.
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Se puede probar conectando el LED con una resistencia a una fuente de 5V. Si emite luz, funciona correctamente.
+
+Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/3ykrQETuoX2-frantic-wluff-tumelo/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+Al establecer la salida en HIGH, el LED debe encenderse. Si no se enciende, puede haber un problema en la conexión o en el código.
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+Puede fallar si se quema por exceso de corriente o está invertido. Si no enciende al enviar HIGH o queda siempre apagado, hay problema en el circuito o conexión.
