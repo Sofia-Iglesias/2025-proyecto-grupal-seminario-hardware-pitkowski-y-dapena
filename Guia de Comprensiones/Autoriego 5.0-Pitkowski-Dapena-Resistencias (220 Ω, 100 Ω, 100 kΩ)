@@ -14,7 +14,7 @@ Tiene dos terminales: ambos permiten el paso de corriente, no tienen polaridad n
 Se conecta en serie con el componente que se desea proteger, por ejemplo, con un LED en un pin digital, para limitar la corriente que pasa a través de él.
 
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-
+https://drive.google.com/file/d/14lsly-xZtSWIzaHKxSTT-nuWOdLzrxfb/view?usp=sharing
 
 ¿Cuál es el principio de funcionamiento del componente?
 Funciona según la Ley de Ohm (V = I × R). Se opone al paso de los electrones, generando una caída de tensión proporcional a la corriente que la atraviesa.
