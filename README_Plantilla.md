@@ -31,11 +31,7 @@ Un sistema que use sensores de humedad para saber si hay que regar la planta, mi
 
 ## **`Requisitos`**
 
-- `Software necesario`  
-- `Librerías`  
-- `Hardware adicional`
-
-`Completar una vez definido el proyecto.`
+- `Ninguno`  
 
 ## **`Etapas del proyecto`**
 ### Etapa 1:
@@ -45,11 +41,5 @@ Un sistema que use sensores de humedad para saber si hay que regar la planta, mi
   
 
 ### Etapa 2:
-- `Acción 1`
-- `Acción 2`
-
-## **`Extras`**
-
-- `Extra 1`  
-- `Extra 2`  
-- `Extra 3`
+- `Hacer las simulaciones de cada componente en Tinkercard`
+- `Hacer la simulacion final de todos los componentes en un solo Tinkercard`
