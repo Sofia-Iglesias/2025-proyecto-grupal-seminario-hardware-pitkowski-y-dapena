@@ -65,8 +65,8 @@
 
 **`Dificultades:`**
 
-- ``  
-- ``  
+- `Juntar todos los componentes en un Tinkercard`  
+- `Que el Tinkercard quede prolijo y que se entienda`  
 
 **`Próximos Pasos:`**
 
