@@ -1,0 +1,50 @@
+Qué tipo de dispositivo es y función principal
+ es un actuador que emite sonido para alarmas o avisos
+
+
+Qué señal utiliza
+ señal digital HIGH o LOW
+
+
+Rango de valores
+ funciona con 5v
+
+
+Pines del componente
+ positivo voltaje
+ negativo tierra
+
+
+Pines de Arduino utilizados y por qué
+ pin digital 8 por ser facil de controlar
+
+
+Esquema de conexión
+https://app.diagrams.net/?src=about#G17eKywdyvQkQ8daY7hDQtlxZ3pkk6aBZm#%7B%22pageId%22%3A%22cuPU9cnZgyGpc2_A-Xu1%22%7D
+
+
+Principio de funcionamiento
+ adentro tiene una plaquita que vibra cuando recibe corriente por eso produce sonido
+
+
+Librería
+ no usa libreria
+
+
+Interpretación del dato
+ HIGH suena LOW se apaga
+
+
+Limitaciones eléctricas
+ no usar si consume mas corriente de la que puede dar un pin no usar voltajes altos
+
+
+Cómo verificar funcionamiento
+ activar digitalWrite y escuchar si suena
+
+
+Simulación y valor esperado
+ en tinkercad debe sonar cuando el pin quede en alto
+ link no generado por limitasion del sistema
+
+
