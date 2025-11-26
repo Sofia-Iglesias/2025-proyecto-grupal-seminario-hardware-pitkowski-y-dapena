@@ -70,6 +70,20 @@
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`
-- `Próximo paso 2`
+- `Entregar TP`
+
+  ## **`Semana 3`**
+
+**`Fecha:`**
+
+**`Actividades Realizadas:`**
+
+- `Entregar el TP`  
+- `Chekear con Sofi que el Github este bien hecho`  
+
+**`Dificultades:`**
+
+- ``  
+- ``  
+
 
