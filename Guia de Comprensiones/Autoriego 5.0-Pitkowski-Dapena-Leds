@@ -16,7 +16,7 @@ Cátodo (–): pata negativa que se conecta a GND o tierra.
 Se pueden usar pines digitales (por ejemplo, 2, 3 o 4), ya que permiten controlar fácilmente el encendido y apagado mediante salidas digitales.
 
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-https://app.diagrams.net/?src=about#G1ssljMZyttpEPSyTCbt-tU5LvDMyKzFE6#%7B%22pageId%22%3A%22yKGSlhhJG2mE97LYf3Hz%22%7D
+https://drive.google.com/file/d/1ssljMZyttpEPSyTCbt-tU5LvDMyKzFE6/view?usp=sharing
 
 ¿Cuál es el principio de funcionamiento del componente?
 Cuando los electrones atraviesan la unión del diodo LED, se recombinan con huecos y emiten energía en forma de luz visible.
