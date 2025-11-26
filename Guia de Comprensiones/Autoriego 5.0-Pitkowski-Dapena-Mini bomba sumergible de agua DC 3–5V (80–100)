@@ -18,7 +18,7 @@ GND (–): se conecta a tierra o negativo.
 Se usa un pin digital para conectar la señal porque permite activar o desactivar la bomba fácilmente con un código.
 
 Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
-https://app.diagrams.net/?src=about#G14lsly-xZtSWIzaHKxSTT-nuWOdLzrxfb#%7B%22pageId%22%3A%22yMhAH4Lpj7nEPKBO2Sn5%22%7D
+https://drive.google.com/file/d/14lsly-xZtSWIzaHKxSTT-nuWOdLzrxfb/view?usp=sharing
 
 ¿Cuál es el principio de funcionamiento del componente?
 Funciona haciendo pasar corriente por un motor DC interno, que hace girar una hélice para mover el agua.
