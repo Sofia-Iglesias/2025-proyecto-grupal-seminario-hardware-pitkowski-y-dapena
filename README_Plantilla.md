@@ -27,7 +27,7 @@ Un sistema que use sensores de humedad para saber si hay que regar la planta, mi
 -  `Buzzer Activo 3.3 V–5 V Link: https://candy-ho.com/producto/modulo-buzzer-pasivo-3-3v-a-5v-zumbador-arduino/?utm`
 -  `1 Pulsador`
 - `3 Leds rojo.verde y amarillo`
--  `Resistencias (220 Ω (para los leds), 100 Ω (va en serie con el gate del MOSFET para proteger el Ardurino cuando controla el MOSFET ), 100 kΩ (Va como pull-down entre el Gate y ground , evita que la bomba se prenda sola por cargas estáticas y asegura que el MOSFET arranque siempre apagado.))`
+-  `Resistencias (220 Ω (para los leds), 100 Ω (va en serie con el gate del MOSFET para proteger el Ardurino cuando controla el MOSFET ), 100 kΩ (Va como pull-down entre el Gate y ground , evita que la bomba se prenda sola por cargas estáticas y asegura que el MOSFET arranque siempre apagado.), resistencia de 10 kΩ para el dht11)`
 - `Protoboard y cables dupont`
 - `Tubo manguera + filtro y válvula. todo 5–7 mm de diámetro`
 - `Cargador USB 5 V o fuente con conversor a 5 V`
